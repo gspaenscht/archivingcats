@@ -4,6 +4,7 @@
     <meta name="description" content="trying stuff out" />
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 </head>
 
 <body>
@@ -32,6 +33,8 @@
                 " : " + myDate.getMilliseconds();
             document.write("\tCurrent time is : " + myTime); 
         </script>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     </header>
     <main>
         <button id="dark-mode-toggle">night</button>
@@ -42,44 +45,121 @@
                 look up at my <a href="https://www.instagram.com/zuerchermuell/"> meta </a> <br>
                 <img class=cat src="IMG_4546.HEIC" alt="shaved cat">
         </div class=catphone>
-        <div id="divmeow">
-            <img class="meow" src="IMG_0213.JPG">
-            <img class="meow" src="IMG_0214.JPG">
-            <img class="meow" src="IMG_0215.JPG">¨
-            <img class="meow" src="IMG_0216.JPG">
-            <img class="meow" src="IMG_0217.JPG">
-            <img class="meow" src="IMG_0218.JPG">
-            <img class="meow" src="IMG_0219.JPG">
-            <img class="meow" src="IMG_1582.HEIC">
-            <img class="meow" src="IMG_1584.HEIC">
-            <img class="meow" src="IMG_1585.HEIC">
-            <img class="meow" src="IMG_4348.PNG">
-            <img class="meow" src="IMG_4350.HEIC">
-            <img class="meow" src="IMG_4546.HEIC">
-            <img class="meow" src="IMG_4571.PNG">
-            <img class="meow" src="IMG_4578.PNG">
-            <img class="meow" src="IMG_4579.HEIC">
-            <img class="meow" src="IMG_4581.HEIC">
-            <img class="meow" src="IMG_4586.HEIC">
-            <img class="meow" src="IMG_5027.jpg">
-            <img class="meow" src="IMG_5524.HEIC">
-            <img class="meow" src="IMG_5526.HEIC">
-            <img class="meow" src="IMG_5731.HEIC">
-            <img class="meow" src="IMG_6008.PNG">
-            <img class="meow" src="IMG_6009.HEIC">
-            <img class="meow" src="IMG_6372.MOV">
-            <img class="meow" src="IMG_7362.PNG">
-            <img class="meow" src="IMG_7737.HEIC">
-            <img class="meow" src="IMG_7749.HEIC">
-            <img class="meow" src="IMG_7754.HEIC">
-            <img class="meow" src="IMG_7755.HEIC">
-            <img class="meow" src="IMG_7757.HEIC">
-            <img class="meow" src="IMG_7759.HEIC">
-            <img class="meow" src="IMG_9191.DNG">
-            <img class="meow" src="IMG_9414.DNG">
-            <img class="meow" src="IMG_9425.PNG">
-            <img class="meow" src="IMG_9779.DNG">
-        </div>
+
+        <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_0213.JPG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_0214.JPG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_0215.JPG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_0216.JPG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_0217.JPG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_0218.JPG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_0219.JPG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_1582.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_1584.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_1585.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_4348.PNG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_4350.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_4546.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_4571.PNG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_4578.PNG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_4579.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_4581.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_4586.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_5027.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_5524.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_5526.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_5731.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_6008.PNG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_6009.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_6372.MOV">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_7362.PNG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_7737.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_7749.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_7754.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_7755.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_7757.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_7759.HEIC">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_9191.DNG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_9414.DNG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_9425.PNG">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="meow" src="IMG_9779.DNG">
+                    </li>
+                </ul>
+            </div>
+        </section>
 
         <selection>
             <p> intergalaktischer auserwählter Taglohnbetrieb
@@ -96,12 +176,12 @@
     </footer>
 
     <script>
-        const firstname = "Ruben"
-        const lastname = "Alexandre Silva Gomes"
-        const fullname = `${firstname} ${lastname}`;
-        console.log(`${fullname}`)
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel').mount();
+        });
+    </script>
 
-
+    <script>
         const DarkModeToggle = document.getElementById("dark-mode-toggle");
 
         DarkModeToggle.addEventListener("click", () => {
@@ -114,7 +194,11 @@
         });
 
 
-
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 0.5,
+            }).mount();
+        });
 
     </script>
 </body>

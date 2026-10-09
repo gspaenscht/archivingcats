@@ -1,24 +1,20 @@
 a:hover {
-    text-decoration-color: red color:blueviolet
+    text-decoration-color: red;
+    color: blueviolet;
 }
 
-a:visited {
-    color:
-}
+
 
 .cat {
     width: 450px;
 }
 
-.meow {
-    width: 450px;
+.splide__slide img {
+    width: 100%;
+    height: auto;
+
 }
 
-#divmeow {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 div p {
     font-size: 22px;
@@ -56,9 +52,6 @@ body.dark a {
 
 
 
-@media (min-width: 441px) {
-    .catphone {}
-}
 
 div {
     display: flex;
@@ -83,4 +76,3 @@ body.dark {
     padding: 10px;
     border-radius: 50%;
 }
-
