@@ -10,8 +10,13 @@ a:hover {
 }
 
 .splide__slide img {
+    width: auto;
+    height: 100%;
+
+}
+
+.splide__track {
     width: 100%;
-    height: auto;
 
 }
 
@@ -48,12 +53,13 @@ body.dark a {
 
 .catphone p {
     margin-right: 50px;
+    margin-left: 50px;
 }
 
 
 
 
-div {
+.catphone {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
