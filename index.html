@@ -1,0 +1,120 @@
+<head>
+    <title> stop staring in those vids</title>
+    <meta name="author" content="roadkill" />
+    <meta name="description" content="trying stuff out" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+    <header>
+        <h1>glad you found ur way</h1>
+        <script type="text/javascript">
+            let myDate = new Date();
+            let myDay = myDate.getDay();
+
+            // Array of days. 
+            let weekday = ['Sunday', 'Monday', 'Tuesday',
+                'Wednesday', 'Thursday', 'Friday', 'Saturday'
+            ];
+            document.write("Today is : " + weekday[myDay]);
+            document.write("<br/>");
+
+            // get hour value. 
+            let hours = myDate.getHours();
+            let ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+            let minutes = myDate.getMinutes();
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            let myTime = hours + " " + ampm + " : " + minutes +
+                " : " + myDate.getMilliseconds();
+            document.write("\tCurrent time is : " + myTime); 
+        </script>
+    </header>
+    <main>
+        <button id="dark-mode-toggle">night</button>
+        <div class=catphone>
+            <P> hau paar <a href="mailto:silvagomesruben@gmail.com">Email </a> use <br>
+                give me a <a href="tel:+41 78 905 52 40"> call </a> <br>
+                you can sometimes find me at <a href="geo: 47.475393, -8.049561"> home </a> <br>
+                look up at my <a href="https://www.instagram.com/zuerchermuell/"> meta </a> <br>
+                <img class=cat src="IMG_4546.HEIC" alt="shaved cat">
+        </div class=catphone>
+        <div id="divmeow">
+            <img class="meow" src="IMG_0213.JPG">
+            <img class="meow" src="IMG_0214.JPG">
+            <img class="meow" src="IMG_0215.JPG">¨
+            <img class="meow" src="IMG_0216.JPG">
+            <img class="meow" src="IMG_0217.JPG">
+            <img class="meow" src="IMG_0218.JPG">
+            <img class="meow" src="IMG_0219.JPG">
+            <img class="meow" src="IMG_1582.HEIC">
+            <img class="meow" src="IMG_1584.HEIC">
+            <img class="meow" src="IMG_1585.HEIC">
+            <img class="meow" src="IMG_4348.PNG">
+            <img class="meow" src="IMG_4350.HEIC">
+            <img class="meow" src="IMG_4546.HEIC">
+            <img class="meow" src="IMG_4571.PNG">
+            <img class="meow" src="IMG_4578.PNG">
+            <img class="meow" src="IMG_4579.HEIC">
+            <img class="meow" src="IMG_4581.HEIC">
+            <img class="meow" src="IMG_4586.HEIC">
+            <img class="meow" src="IMG_5027.jpg">
+            <img class="meow" src="IMG_5524.HEIC">
+            <img class="meow" src="IMG_5526.HEIC">
+            <img class="meow" src="IMG_5731.HEIC">
+            <img class="meow" src="IMG_6008.PNG">
+            <img class="meow" src="IMG_6009.HEIC">
+            <img class="meow" src="IMG_6372.MOV">
+            <img class="meow" src="IMG_7362.PNG">
+            <img class="meow" src="IMG_7737.HEIC">
+            <img class="meow" src="IMG_7749.HEIC">
+            <img class="meow" src="IMG_7754.HEIC">
+            <img class="meow" src="IMG_7755.HEIC">
+            <img class="meow" src="IMG_7757.HEIC">
+            <img class="meow" src="IMG_7759.HEIC">
+            <img class="meow" src="IMG_9191.DNG">
+            <img class="meow" src="IMG_9414.DNG">
+            <img class="meow" src="IMG_9425.PNG">
+            <img class="meow" src="IMG_9779.DNG">
+        </div>
+
+        <selection>
+            <p> intergalaktischer auserwählter Taglohnbetrieb
+                zu den neu gekommenen arbeitserkentnisse sind Jäten, Laufwahnberatung; zuhören aktiv oder passiv bei
+                hemmungslosen Klageattacken
+            </p>
+        </selection>
+    </main>
+    <footer> see you around
+        <a href='https://www.acadoo.de/'></a>
+        <script type='text/javascript'
+            src='https://www.freevisitorcounters.com/auth.php?id=e26ad61d6b3b746d1005c345ea159412fcfa4e3a'></script>
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1662012/t/10"></script>
+    </footer>
+
+    <script>
+        const firstname = "Ruben"
+        const lastname = "Alexandre Silva Gomes"
+        const fullname = `${firstname} ${lastname}`;
+        console.log(`${fullname}`)
+
+
+        const DarkModeToggle = document.getElementById("dark-mode-toggle");
+
+        DarkModeToggle.addEventListener("click", () => {
+            document.body.classList.toggle("dark");
+            if (document.body.classList.contains("dark")) {
+                DarkModeToggle.textContent = "day";
+            } else {
+                dark.DarkModeToggle.textContent = "night";
+            }
+        });
+
+
+
+
+    </script>
+</body>

@@ -1,0 +1,86 @@
+a:hover {
+    text-decoration-color: red color:blueviolet
+}
+
+a:visited {
+    color:
+}
+
+.cat {
+    width: 450px;
+}
+
+.meow {
+    width: 450px;
+}
+
+#divmeow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div p {
+    font-size: 22px;
+    color: red;
+    padding: 20px;
+    margin: 50px;
+    border: 3px ridge blueviolet;
+}
+
+footer {
+    padding: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+selection p {
+    font-size: 22px;
+    color: red;
+}
+
+
+body.dark a {
+    color: greenyellow;
+}
+
+
+.catphone p {
+    margin-right: 50px;
+}
+
+
+
+@media (min-width: 441px) {
+    .catphone {}
+}
+
+div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+body.dark {
+    background: black;
+    color: white;
+}
+
+#dark-mode-toggle {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
