@@ -7,6 +7,7 @@ a:hover {
 
 .cat {
     width: 450px;
+    
 
 }
 
@@ -80,6 +81,7 @@ body.dark a {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    margin: 50px;
 
 }
 
