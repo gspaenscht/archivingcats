@@ -11,8 +11,14 @@ a:hover {
 }
 
 .splide__slide img {
-    width: auto;
-    height: 100%;
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: solid;
+    margin: 50px
 
 }
 
@@ -94,7 +100,8 @@ body.dark {
     border-radius: 50%;
 }
 
-.catphone p{
+.catphone p {
     padding: 20px;
     margin: 20px;
+    margin-bottom: 100px;
 }
