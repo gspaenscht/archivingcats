@@ -31,11 +31,22 @@ div p {
 }
 
 footer {
+    font-size: 30px;
     padding: 50px;
     background-color: aqua;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+
+}
+
+footer p {
+    font-size: 11px;
+    font-style: italic;
+
+}
+
+section {
     display: flex;
     justify-content: space-between;
 
@@ -52,10 +63,8 @@ body.dark a {
 }
 
 
-.catphone p {
-    margin-right: 50px;
-    margin-left: 50px;
-}
+
+
 
 
 
